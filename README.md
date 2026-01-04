@@ -35,17 +35,17 @@ and document-based question answering to help businesses manage operations effic
 [ LLM API + Vector Store ]
 
 ## API Design
- Auth APIs
-   POST /api/auth/register
-   POST /api/auth/login
-Business APIs
-  GET    /api/items
-  POST   /api/items
-  PUT    /api/items/:id
-  DELETE /api/items/:id
-AI APIs
-  POST /api/ai/chat
-  POST /api/ai/document
+-- Auth APIs
+   -POST /api/auth/register
+   -POST /api/auth/login
+--Business APIs
+  -GET    /api/items
+  -POST   /api/items
+  -PUT    /api/items/:id
+  -DELETE /api/items/:id
+--AI APIs
+  -POST /api/ai/chat
+  -POST /api/ai/document
 
 ## Database Schema
    # Core Collections
