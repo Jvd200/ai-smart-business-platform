@@ -16,3 +16,62 @@ and document-based question answering to help businesses manage operations effic
 - Database: MongoDB
 - Authentication: JWT
 - AI: LLM APIs, RAG, Vector Search
+
+## System Architecture
+ # High-Level Architecture
+[ React Frontend ]
+        |
+        |  REST APIs (JWT)
+        v
+[ Node.js + Express Backend ]
+        |
+        |  Mongoose
+        v
+[ MongoDB Database ]
+
+        |
+        |  AI Requests
+        v
+[ LLM API + Vector Store ]
+
+## API Design
+ Auth APIs
+   POST /api/auth/register
+   POST /api/auth/login
+Business APIs
+  GET    /api/items
+  POST   /api/items
+  PUT    /api/items/:id
+  DELETE /api/items/:id
+AI APIs
+  POST /api/ai/chat
+  POST /api/ai/document
+
+## Database Schema
+   # Core Collections
+   --User Collection
+     User {
+  name,
+  email,
+  password,
+  role
+}
+
+--BusinessItem Collection
+BusinessItem {
+  title,
+  description,
+  status,
+  assignedTo,
+  createdBy
+}
+--Document Collection
+Document {
+  fileName,
+  extractedText,
+  embeddings,
+  uploadedBy
+}
+
+
+
