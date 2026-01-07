@@ -83,7 +83,27 @@ Document {
     -AI Assistant
     -Document Upload & Q&A
 
-- Wireframes for core screens
+   ## Wireframes for core screens
+   ## 📸 Screenshots
+   -Dashboard
+ --![Dashboard](screenshots/dashboard.png)
+ --Business Items
+![Business Items](screenshots/business-items.png)
+   --AI Assistant
+![AI Assistant](screenshots/ai-assistant.png)
+## User flow definition
+Login
+  ↓
+Dashboard
+  ↓
+Manage Business Items (CRUD)
+  ↓
+Ask AI Assistant
+  ↓
+Upload Documents
+  ↓
+Get Insights from AI
+
 
 
 
