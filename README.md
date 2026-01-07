@@ -74,4 +74,16 @@ Document {
 }
 
 
+## UI & UX Design
+--Core Screens
+    -Login
+    -Register
+    -Dashboard
+    -Business Items (Tasks / Records)
+    -AI Assistant
+    -Document Upload & Q&A
+
+- Wireframes for core screens
+
+
 
